@@ -1,0 +1,53 @@
+$base:(
+    white: #ffffff,
+    black: #000000
+);
+
+$brand:(
+    primary-green: #1E6040,
+    primary-blue: #1F9CAD,
+);
+$primary-green:(
+    50: #e9efec,
+    75: #a3beb1,
+    100: #7da390,
+    200: #447b60,
+    300: #1e6040,
+    400: #15432d,
+    500: #123b27,
+);
+$primary-blue:(
+    50: #e9f5f7,
+    75: #a3d6dd,
+    100: #7dc6cf,
+    200: #45adbb,
+    300:#1f9cad,
+    400:#166d79,
+    500:#135f6a,
+);
+
+//base colors
+$base-white: map-get($brand, white);
+$base-black: map-get($brand, black);
+
+//brand colors
+$brand-primary-green: map-get($brand, primary-green);
+$brand-primary-blue: map-get($brand, primary-blue);
+
+//primary-green colors
+$primary-green-50: map-get($primary-green, 50);
+$primary-green-75: map-get($primary-green, 75);
+$primary-green-100: map-get($primary-green, 100);
+$primary-green-200: map-get($primary-green, 200);
+$primary-green-300: map-get($primary-green, 300);
+$primary-green-400: map-get($primary-green, 400);
+$primary-green-500: map-get($primary-green, 500);
+
+//primary-blue colors
+$primary-blue-50: map-get($primary-blue, 50);
+$primary-blue-75: map-get($primary-blue, 75);
+$primary-blue-100: map-get($primary-blue, 100);
+$primary-blue-200: map-get($primary-blue, 200);
+$primary-blue-300: map-get($primary-blue, 300);
+$primary-blue-400: map-get($primary-blue, 400);
+$primary-blue-500: map-get($primary-blue, 500);

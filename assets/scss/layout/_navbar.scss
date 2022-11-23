@@ -1,0 +1,36 @@
+nav {
+    ul {
+        li {
+            &:hover {
+                >ul {
+                    display: block;
+                }
+            }
+        }
+
+        ul {
+            position: absolute;
+            display: none;
+        }
+    }
+}
+
+.nav {
+    &__links {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            padding: 0px 20px;
+
+            a {
+                transition: all 0.3s ease 0s;
+
+                &:hover {
+                    color: #1E6040;
+                }
+            }
+        }
+    }
+}
+

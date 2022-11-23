@@ -1,0 +1,8 @@
+@each $className, $value in $primary-green{
+    .primary-green-#{$className}{
+        color: $value;
+    }
+}
+
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "campgear",
+  "version": "1.0.0",
+  "description": "campgear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/scss/main.scss:assets/css/main.css"
+  },
+  "keywords": [
+    "campgear",
+    "html",
+    "css",
+    "scss",
+    "js"
+  ],
+  "author": "Uruna Shakya",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.56.1"
+  }
+}

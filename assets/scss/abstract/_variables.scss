@@ -1,3 +1,8 @@
+//font
+$font-family-base: 'Heebo', sans-serif;
+
+
+//colors
 $base:(
     white: #ffffff,
     black: #000000
@@ -51,3 +56,12 @@ $primary-blue-200: map-get($primary-blue, 200);
 $primary-blue-300: map-get($primary-blue, 300);
 $primary-blue-400: map-get($primary-blue, 400);
 $primary-blue-500: map-get($primary-blue, 500);
+
+//container max width
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1856px
+) !default;

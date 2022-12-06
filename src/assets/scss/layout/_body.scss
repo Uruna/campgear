@@ -1,0 +1,291 @@
+//Banner
+
+.border-this {
+  border: 1px solid red;
+}
+
+.carousel-banner {
+  // margin-left:32px;
+  // margin-right:32px;
+  margin: 22px 32px 22px 32px;
+}
+
+.banner {
+  //background-image: url("./../../img/Camping-gear-equipment.png");
+
+  width: 1856px;
+  height: 709px;
+  left: 32px;
+  top: 94px;
+}
+.bg {
+  border: 1px solid red;
+  border-radius: 16px;
+  background: gray;
+  position: absolute;
+  top: 150px;
+  right: 32px;
+  left: 32px;
+  bottom: 22px;
+}
+
+.banner-text {
+  position: absolute;
+  width: 446px;
+  height: 188px;
+  left: 189px;
+  top: 100px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: 0.16em;
+  color: red;
+}
+
+.banner-sub {
+  position: absolute;
+  width: 440px;
+  height: 58px;
+  left: 205px;
+  top: 300px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.145em;
+  color: green;
+}
+
+.banner-btn {
+  position: absolute;
+  width: 100px;
+  // height: 30px;
+  left: 213px;
+  top: 400px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #1e6040;
+  color: white;
+  padding: 12px;
+  border-radius: 17px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    border-color: aquamarine;
+    box-shadow: 5px 5px 10px 2px aqua;
+  }
+}
+
+// Card
+.cardd {
+  display: flex;
+  flex-direction: row;
+  height: 38rem;
+  padding-left: 189px;
+  padding-right: 289px;
+  padding-top: 40px;
+  padding-bottom: 42px;
+  background: #78a774;
+  justify-content: space-between;
+}
+.card {
+  background-color: #78a774;
+  box-shadow: 2px 2px 20px 2px rgb(80, 80, 80);
+  border-radius: 32px;
+}
+// #1E6040
+.card-body-top {
+  display: flex;
+}
+.card-img-top {
+  border-radius: 32px 32px 0px 0px;
+}
+.card-title {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.145em;
+
+  color: #000000;
+}
+.card-slog {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.145em;
+  color: #ffffff;
+}
+.card-text {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.145em;
+
+  color: #ffffff;
+}
+// .card-item{
+//     display: flex;
+//     flex-direction: column;
+//     border:1px solid green;
+//     margin:40px;
+//     border-radius: 32px;
+// }
+
+// .card-image img{
+//     flex: none;
+//     order: 0;
+//     align-self: auto;
+//     flex-grow: 1;
+//     border-radius: 32px 32px 0px 0px;
+
+// }
+// .card-desc{
+//     display: flex;
+//     flex-direction: row;
+
+// }
+// .card-title{
+//     font-family: 'Heebo';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 24px;
+//     line-height: 35px;
+//     letter-spacing: 0.145em;
+
+//     color: #000000;
+// }
+
+// .card-learn{
+//     font-family: 'Inter';
+//     font-style: normal;
+//     font-weight: 600;
+//     font-size: 18px;
+//     line-height: 22px;
+//     /* identical to box height */
+
+//     letter-spacing: 0.145em;
+
+//     color: #FFFFFF;
+//     cursor: pointer;
+// }
+// .card-info{
+//     font-family: 'Heebo';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 20px;
+//     line-height: 29px;
+//     letter-spacing: 0.145em;
+//     color: #FFFFFF;
+// }
+
+//Album
+.album {
+  height: 700px;
+  background-color: gray;
+}
+
+.album-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 59px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.145em;
+
+  color: #000000;
+}
+
+.album-sub {
+  display: flex;
+  gap: 216px;
+  justify-content: space-around;
+}
+
+.album-card {
+  //border:1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.album-card img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.bottom {
+  height: 608px;
+}
+
+.bottom-item {
+  display: flex;
+}
+
+.bottom-image {
+  //border:1px solid red;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.bottom-item img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  height: 38rem;
+  padding-left: 189px;
+  padding-right: 289px;
+  padding-top: 40px;
+  padding-bottom: 42px;
+  background: white;
+  justify-content: space-between;
+  gap: 40px;
+
+  .card {
+    border: none;
+    outline: none;
+  }
+}
+
+.bottom .card {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.bottom .card img {
+  border-radius: 32px;
+}
+
+.bottom .card .card-img-top {
+  height: 100%;
+}
+
+.bottom .card .card-text {
+  color: #000000;
+}

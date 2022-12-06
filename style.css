@@ -133,3 +133,11 @@ ul{
     font-size: 14px;
     background-color: #ffffff ;
  }
+
+ .sec-container{
+    height: 50px;
+ }
+
+ .border-this{
+    border:1px solid red;
+ }

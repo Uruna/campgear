@@ -3,8 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 // const tinyPngWebpackPlugin = require('tinypng-webpack-plugin');
 // const CompressionPlugin = require('compression-webpack-plugin');
-const glob = require("glob");
-const PurgecssPlugin = require("purgecss-webpack-plugin");
+
 
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 const PATHS = {
@@ -19,7 +18,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "./assets/js/[name].js",
   },
-  mode: "production",
+  mode: "development",
 
   module: {
     rules: [
@@ -30,13 +29,10 @@ module.exports = {
           loader: "babel-loader",
         },
       },
+     
       {
-        // Then we apply postCSS fixes like autoprefixer and minifying
-        loader: "postcss-loader"
-      },
-      {
-        test: /\.pug$/,
-        use: ["html-loader", "pug-html-loader"],
+        test: /\.html$/,
+        use: ["html-loader"],
       },
       {
         test: /\.css$/,
@@ -122,7 +118,7 @@ module.exports = {
       chunks: ["home", "vendors"],
     }),
   ],
-  devtool: "",
+  devtool: "eval",
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     // host: "192.168.40.36",

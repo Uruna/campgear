@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch assets/scss/main.scss:assets/css/main.css"
+    "sass": "sass --watch assets/scss/main.scss:assets/css/main.css",
+    "build": "webpack",
+    "server": "webpack-dev-server"
   },
   "keywords": [
     "campgear",
@@ -21,6 +23,22 @@
     "sass": "^1.56.1"
   },
   "devDependencies": {
-    "webpack": "^5.75.0"
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "cssnano": "^5.1.14",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^8.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^10.3.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   }
 }
